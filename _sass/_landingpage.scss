@@ -23,15 +23,27 @@ body {
 
 }
 /* make figcaptions fly over the image */
-//#gallery > figure >
-figcaption {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  line-height: 3em;
-  color: white;
-  background: rgba(0,0,0,.3);
+.hero {
+  position: relative;
+  width:100%;
+  height:auto;
+
+  img {
+    width:100%;
+    height:auto;
+    display: block;
+  }
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    padding: 0rem 1rem;
+    line-height: 2rem;
+    color: white;
+    background: rgba(0,0,0,.3);
+  }
 }
+
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
