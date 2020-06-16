@@ -22,3 +22,6 @@ exclude:
 
 sass:
   style: :compressed
+
+bootstrap:
+  assets: true
