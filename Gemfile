@@ -6,8 +6,8 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.0.1"
 
 group :development do
-  gem "rubocop", "~> 0.8"
-  gem "rubocop-jekyll", "~> 0.10"
+  gem "rubocop", "~> 0.80"
+  gem "rubocop-jekyll", "~> 0.11"
 end
 
 group :jekyll_plugins do
